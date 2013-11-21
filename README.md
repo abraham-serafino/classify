@@ -2,7 +2,7 @@ The Classify Pattern
 ====================
 
 The Classify Pattern enables public, private, and even protected members, with support for automatic garbage collection;
-true prototypal inheritance; and, default constructors. Using the Module Pattern, the script on the driver page executes
+true prototypal inheritance; and, default constructors. Using the Classify Pattern, the script on the driver page executes
 in half the time of the Module Pattern -- and the collection of objects it instantiates is almost fifty times smaller.
 Classify classes are "plain old Javascript" - which means there is no compile step and no bulky, pretentious framework.
 They are also comparatively IDE- and debugger-friendly.
