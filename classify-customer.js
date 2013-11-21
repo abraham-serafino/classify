@@ -99,7 +99,33 @@ var VIPCustomer = (function () {
 		return getBalance();
 	}
 
+	// ** interface methods ** //
+	function _getName () {
+		return this.name;
+	}
+
+	function _setName (val) {
+		if (typeof (val) === "string") {
+			this.name = val;
+		}
+	}
+
+	// ** abstract methods ** //
+	function _getAge () {
+		return this.name;
+	}
+
+	function _setAge (val) {
+		if (typeof (age) === "number") {
+			this.age = val;
+		}
+	}
+
 	_VIPCustomer.getIncreasedBalance = _getIncreasedBalance;
+	_VIPCustomer.getName = _getName;
+	_VIPcustomer.setName = _setName;
+	_VIPCustomer.getAge = _getName;
+	_VIPcustomer.setAge = _setName;
 
 	return classify(_VIPCustomer);
 
