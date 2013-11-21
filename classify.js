@@ -44,7 +44,7 @@ function _abstractMethod () {
 	throw new Error("Attempted to call an uniplemented abstract method.");
 }
 
-function implementInterface (I, c) {
+Function.prototype.implements = function (I) {
 	var methodName = "";
 
 	for (var i = 0, iLen = I.length; i < iLen; i++) {
