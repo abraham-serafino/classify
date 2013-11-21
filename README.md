@@ -1,4 +1,3 @@
-
 The Classify Pattern
 ====================
 
@@ -14,9 +13,9 @@ keyword -- all of which tend to cause dramatic performance issues and long-stand
 
 Files
 =====
-  classify.js           -- convenience methods that simplify our object-oriented programming pattern
+  classify.js           -- convenience methods that simplify our object-oriented programming pattern<br/>
   module-customer.js    -- demonstrates a popular pattern (the Module Pattern) for defining base and child "classes"
-                              with public, private, and protected members
+                              with public, private, and protected members<br/>
   classify-customer.js  -- demonstrates another way to define the same classes, using the convenience methods from
-                              classify.js
-  test.html             -- "driver" page that can be modified to profile either pattern
+                              classify.js<br/>
+  test.html             -- "driver" page that can be modified to profile either pattern <br/>
