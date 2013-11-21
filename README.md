@@ -19,3 +19,14 @@ Files
 <tr><td>classify-customer.js</td><td>demonstrates another way to define the same classes, using the convenience methods from classify.js</td></tr>
 <tr><td>test.html</td><td>"driver" page that can be modified to profile either pattern</td></tr>
 </table>
+
+Credits
+=======
+
+The classify() function was entirely my own invention. I essentially plagiarazed the ideas for private
+(http://stackoverflow.com/questions/8580540/javascript-calling-private-method-from-prototype-method) and protected
+(http://stackoverflow.com/questions/8703698/javascript-module-pattern-protected-members) methods from Stack Overflow. The
+extendClass convenience method works in a manner similar to the Typescript "extends" keyword
+(http://www.typescriptlang.org/Playground/; select "simple inheritance" from the drop-down). Support for private 
+variables is an extensive variation on a blog post by Chris West
+(http://cwestblog.com/2011/05/04/private-variables-in-javascript/).
