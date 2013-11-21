@@ -1,0 +1,32 @@
+<html><head></head><body>
+<!--script src="classify.js"></script-->
+<script src="module-customer.js"></script>
+
+	<script>
+
+	var myObj 		= [],
+		startTime 	= (new Date()).getTime(),
+		currentBalance	= null;
+
+	for (var i = 0; i < 50000; ++i) {
+		myObj[i] = new VIPCustomer();
+		currentBalance = myObj[i].getIncreasedBalance(9000);
+	}
+
+	alert ("Completed in " + (((new Date()).getTime()) - startTime) + "ms");
+
+	var steve = new Customer();
+	var john = new Customer("john");
+	var mary = new VIPCustomer(27, "mary");
+
+	alert(steve.name + ", " + john.name + ", and " + mary.name);
+
+	alert ("mary is " + ((mary instanceof VIPCustomer) ? "" : "not") +
+		" an instance of VIPCustomer and " +
+		((mary instanceof Customer) ? "" : "not an instance of") +
+		" Customer");
+
+	</script>
+
+</body></html>
+
