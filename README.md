@@ -13,9 +13,9 @@ keyword -- all of which tend to cause dramatic performance issues and long-stand
 
 Files
 =====
-  classify.js           -- convenience methods that simplify our object-oriented programming pattern<br/>
-  module-customer.js    -- demonstrates a popular pattern (the Module Pattern) for defining base and child "classes"
-                              with public, private, and protected members<br/>
-  classify-customer.js  -- demonstrates another way to define the same classes, using the convenience methods from
-                              classify.js<br/>
-  test.html             -- "driver" page that can be modified to profile either pattern <br/>
+<table>
+<tr><td>classify.js</td><td>convenience methods that simplify our object-oriented programming pattern</td></tr>
+<tr><td>module-customer.js</td><td>demonstrates a popular pattern (the Module Pattern) for defining base and child "classes" with public, private, and protected members</td></tr>
+<tr><td>classify-customer.js</td><td>demonstrates another way to define the same classes, using the convenience methods from classify.js</td></tr>
+<tr><td>test.html</td><td>"driver" page that can be modified to profile either pattern</td></tr>
+</table>
