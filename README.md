@@ -28,5 +28,5 @@ The classify() function was entirely my own invention. I essentially plagiarazed
 (http://stackoverflow.com/questions/8703698/javascript-module-pattern-protected-members) methods from Stack Overflow. The
 extendClass convenience method works in a manner similar to the Typescript "extends" keyword
 (http://www.typescriptlang.org/Playground/; select "simple inheritance" from the drop-down). Support for private 
-variables is an extensive variation on a blog post by Chris West
+variables is an extensive, prototype-friendly variation on an idea from Chris West
 (http://cwestblog.com/2011/05/04/private-variables-in-javascript/).
