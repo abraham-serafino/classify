@@ -57,7 +57,7 @@ var Customer = (function () {
 	_Customer.increaseCreditLimit = _increaseCreditLimit;
 
 	_Customer.getAge = _abstractMethod;
-	_Customer.setAge = _abstraceMethod;
+	_Customer.setAge = _abstractMethod;
 
 	return classify(_Customer);
 
@@ -123,9 +123,9 @@ var VIPCustomer = (function () {
 
 	_VIPCustomer.getIncreasedBalance = _getIncreasedBalance;
 	_VIPCustomer.getName = _getName;
-	_VIPcustomer.setName = _setName;
+	_VIPCustomer.setName = _setName;
 	_VIPCustomer.getAge = _getName;
-	_VIPcustomer.setAge = _setName;
+	_VIPCustomer.setAge = _setName;
 
 	return classify(_VIPCustomer);
 
