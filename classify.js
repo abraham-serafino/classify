@@ -40,3 +40,18 @@ function createPrivateStore (functionName) {
 	return _private;
 }
 
+function _abstractMethod () {
+	throw new Error("Attempted to call an uniplemented abstract method.");
+}
+
+function implementInterface (I, c) {
+	var methodName = "";
+
+	for (var i = 0, iLen = I.length; i < iLen; i++) {
+		methodName = I[i];
+
+		if (typeof (methodName) === "string" && typeof (c.prototype[methodName]) !== "function") {
+			throw new Error ("There were unimplemented methods.");
+		}
+	}
+};
