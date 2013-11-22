@@ -17,6 +17,8 @@ function extendClass (c) {
 
 	if (typeof (c) === "function") {
 		_F.prototype = c.prototype;
+	} else if (typeof (c) === "object") {
+		_F.prototype = c;
 	}
 
 	return new _F();
